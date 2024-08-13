@@ -13,9 +13,10 @@
   width: 100%;
 }
 .img_container{
-  width: 100%;
+  width: 90%;
   height: 100%;
  margin-top: -10px;
+ margin-left: 20px;
 }
 
 .mission_section{
