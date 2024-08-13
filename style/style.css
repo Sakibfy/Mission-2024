@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Yeseva+One&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -10,7 +12,6 @@ body{
 .header_area{
   width: 1128px;
   height: 500px;
-  border: 1px solid red;
   margin: 140px  auto;
   display: flex;
   justify-content: space-between;
@@ -46,14 +47,26 @@ margin-bottom: 19px;
   border: none;
   border-radius: 5px;
   margin-bottom: 33px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn:hover{
+  background: #701d1de4;
 }
 .img_container{
   width: 47%;
- background-image: url(../images/person/person-2.png);
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
  margin-top: -100px;
+ transition: 0.4s;
+}
+.img_container:hover{
+ transform: scale(1.2);
+}
+.img_container img{
+  width: 100%;
+ margin-top: -60px;
 }
 
 /* mission_section style */
@@ -62,7 +75,6 @@ margin-bottom: 19px;
   height: 492px;
   margin: 0 auto;
   margin-top: -60px;
- border: 1px solid red;
 }
 .mission_title{
   text-align: center;
@@ -79,6 +91,198 @@ margin-bottom: 19px;
 .card_container{
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
-  
+  gap: 24px;
+}
+
+.card_box{
+  width: 360px;
+  height: 376px;
+  border-radius: 26px;
+  background: rgba(79, 157, 166, 10%);
+  position: relative;
+}
+.child_box{
+  position: absolute;
+  margin: 33px 12px 45px 32px;
+  text-align: left;
+}
+.child_box img{
+width: 130px;
+height: 130px;
+margin-bottom: 12px;
+}
+.child_box h4{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.child_box p{
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #424242;
+}
+.vission_box{
+  background: rgba(255, 89, 89, 10%);
+}
+.goals_box{
+  background: rgba(255, 244, 214, 100%);
+}
+/* Develop section style */
+
+.Develop_section, .community_section{
+  width: 1128px;
+  height: 400px;
+  margin: 86px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Develop_img_container{
+  width: 47%;
+  height: 100%;
+  position: relative;
+}
+.Develop_img_container img{
+  width: 100%;
+  height: 100%;
+}
+.shape_1_box{
+  position: absolute;
+  top: 54px;
+  left: -94px;
+  width: 227px;
+  height: 227px;
+  z-index: -1;
+}
+#shape_1_box_2{
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  width: 200px;
+  height: 200px;
+   z-index: 1;
+}
+
+
+.develop_text_container{
+  margin-top: 45px;
+  width: 47%;
+}
+.develop_text_container h3{
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 17px;
+}
+.develop_text_container p{
+font-size: 18px;
+margin-bottom: 18px;
+line-height: 30px;
+color: #3E3E3E;
+}
+
+/* <!-- Build Corona Application area  --> */
+.application_main_title{
+  text-align: center;
+  margin-bottom: 8px;
+}
+.application_main_title h1{
+font-size: 48px;
+font-weight: 700;
+color: #000;
+}
+.application_main_title span{
+color: #FFAD5A;
+}
+
+/* application_corona_section */
+.application_corona_section{
+  width: 1128px;
+ height: 600px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+}
+
+.application_img_box{
+  margin: 79px 163px 79px 100px;
+  position: relative;
+}
+.corona_shope_box{
+  position: absolute;
+  width: 147px;
+  height: 147px;
+  top: -26px;
+  left: -31px;
+  z-index: -1;
+}
+.corona_shope_box_2{
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  top: 307px;
+  left: 225px;
+  z-index: -1;
+}
+.corona_shope_box_3{
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: -10px;
+  bottom: 10px;
+  z-index: -1;
+}
+
+
+.application_img_box img{
+ width: 100%;
+ height: 100%;
+}
+.application_text_box{
+  margin: 181px 2px 186px 0;
+}
+.application_text_box h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 131%;
+  margin-bottom: 16px;
+}
+.application_text_box span{
+  color: #FFAD5A;
+}
+.application_text_box p{
+  color: #3E3E3E;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+/* footer section style */
+footer{
+  width: 100%;
+  height: 177px;
+  background-color: #0B0D17;
+  margin-top: 43px;
+  border: 1px solid #0B0D17;
+}
+
+.footer_text_box{
+  margin: 39px 554px 46px 554px;
+  text-align: center;
+}
+.footer_text_box h2{
+  font-size: 36px;
+  line-height: 44px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+.footer_text_box span{
+  color: #FF5959;
+}
+.footer_text_box p{
+  color: #D9DBE1;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 24px;
 }

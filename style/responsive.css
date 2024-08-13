@@ -1,0 +1,140 @@
+@media screen and (max-width: 756px){
+  .header_area{
+  width: 90%;
+  height: 100%;
+  margin: 20px  auto;
+ flex-direction: column;
+}
+.text_container h1{
+  font-size: 50px;
+}
+.text_container{
+  margin-right: 0;
+  width: 100%;
+}
+.img_container{
+  width: 100%;
+  height: 100%;
+ margin-top: -10px;
+}
+
+.mission_section{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.card_container{
+  flex-direction: column;
+  gap: 18px;
+}
+.card_box{
+  width: 100%;
+  height: 376px;
+}
+/* Develop section style */
+.Develop_section, .community_section{
+  width: 90%;
+  margin: 36px auto;
+  flex-direction: column;
+}
+
+.Develop_img_container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  order: 2;
+}
+.shape_1_box{
+  position: absolute;
+  top: 300px;
+  left: 390px;
+  width: 177px;
+  height: 177px;
+  z-index: -1;
+}
+.develop_text_container{
+  margin-top: 45px;
+  width: 100%;
+}
+
+/* community area */
+.community_section{
+  margin-top: 400px;
+}
+#shape_1_box_2{
+display: none;
+}
+
+/* <!-- Build Corona Application area  --> */
+.application_main_title{
+  width: 80%;
+  margin-top: 450px;
+  margin-left: 60px;
+}
+.application_main_title h1{
+  font-size: 35px;
+}
+
+/* application_corona_section */
+.application_corona_section{
+  width: 92%;
+ height: 100%;
+ flex-direction: column;
+}
+
+.application_img_box{
+  margin: 69px 33px 19px 50px;
+  position: relative;
+}
+
+.corona_shope_box{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  top: -16px;
+  left: -20px;
+  z-index: -1;
+}
+
+.corona_shope_box_2{
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  top: 550px;
+  left: 340px;
+  z-index: -1;
+}
+.corona_shope_box_3{
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 10px;
+  bottom: 25px;
+  z-index: -1;
+}
+.application_text_box{
+  margin: 60px 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.application_text_box p{
+  color: #3E3E3E;
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+/* footer section style */
+footer{
+  height: 150px;
+  margin-top: 30px;
+}
+.footer_text_box{
+  margin: 20px 50px ;
+}
+.footer_text_box p{
+  margin-top: 14px;
+}
+}
